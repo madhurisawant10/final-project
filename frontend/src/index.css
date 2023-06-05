@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: fit-content;
+  margin: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.input-holder {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+input, button {
+  padding: .5em;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 1em 0 0;
+}
+
+li {
+  background: rgb(225 225 225);
+  padding: .8em;
+  margin-bottom: .5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-holder {
+  display: flex;
+  gap: .5em;
+}
+
+.icon {
+  cursor: pointer;
+}
